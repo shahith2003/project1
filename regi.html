@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regi.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="regi">
+        <h2>Registration Form</h2>
+     <form action="fsign.html">
+         <div>
+           <label for="name" class="sign">Name</label>
+           <input type="name" placeholder="First" required>
+           <input type="name" placeholder="Last" required>
+         </div>
+         <div>
+            <label for="email" class="sign">Email</label>
+            <input type="email" required>
+         </div>
+         <div>
+            <label for="degree" class="sign">Degree</label>
+            <input type="text" placeholder="Eg.B.Sc Computer Science" required>
+         </div>
+         <div>
+            <label for="number" class="sign">Contact Number</label>
+            <input type="number" required>
+         </div>
+         <div>
+            <label for="address" class="sign">Address</label>
+            <input type="text" required class="add">
+         </div>
+         <div>
+            <label for="city" class="sign">City</label>
+            <input type="city" placeholder="Eg.Chennai" required>
+         </div>
+         <div>
+            <label for="state" class="sign">State</label>
+            <select name="state" id="state" required>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+            </select>
+         </div>
+         <div>
+            <label for="resume" class="sign">Resume</label>
+            <input type="file" id="file" name="file" required>
+         </div>
+         <div class="radio">
+            <label for="text" class="sign">Gender</label>
+            <input type="radio" name="gender" id="Male" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Female" value="female" required>
+            <label for="female">Female</label>    
+         </div>
+         <div class="btn">
+            <button>Submit</button>
+         </div>
+     </form>
+    </div>
+         
+    
+</body>
+</html>
